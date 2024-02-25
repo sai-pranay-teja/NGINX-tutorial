@@ -10,6 +10,6 @@ copy:
 reload:
 	nginx -s reload
 
-all: copy reload
+all: git copy reload
 
 
